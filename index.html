@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-primary">
+    <h2 class="d-flex justify-content-center text-dark">
+      Milli Banka xoş gəlmisiniz!
+    </h2>
+    <div class="d-flex justify-content-center mt-5">
+      <label
+        class="rounded text-dark"
+        for="amount"
+        >Məbləği daxil edin:</label
+      >
+      <input
+        type="number"
+        id="amount"
+        placeholder="Enter amount..."
+      />
+      <button class="btn-cash rounded text-dark">Cash</button>
+      <button class="btn-withdraw rounded text-dark">Withdraw</button>
+    </div>
+    <div class="d-flex justify-content-center balance"></div>
+
+    <script src="./bank.js"></script>
+  </body>
+</html>
